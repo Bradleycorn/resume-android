@@ -45,3 +45,8 @@ tasks.withType<DependencyUpdatesTask> {
         }
     }
 }
+
+tasks.dokkaGfm {
+    outputDirectory.set(projectDir.resolve("docs"))
+    moduleName.set("Resume")
+}
