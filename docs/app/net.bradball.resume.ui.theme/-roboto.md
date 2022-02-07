@@ -2,5 +2,5 @@
 
 # Roboto
 
-[]\
+[androidJvm]\
 val [Roboto](-roboto.md): SystemFontFamily

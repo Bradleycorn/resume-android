@@ -115,7 +115,7 @@ tasks.dokkaGfm {
 
     dokkaSourceSets {
         configureEach {
-            displayName.set("")
+//            displayName.
 
             sourceLink {
                 // Unix based directory relative path to the root of the project (where you execute gradle respectively).

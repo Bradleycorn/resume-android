@@ -2,7 +2,7 @@
 
 # DefaultPreview
 
-[]\
+[androidJvm]\
 
 @Preview(showBackground = true)
 

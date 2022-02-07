@@ -2,5 +2,5 @@
 
 # Black_800
 
-[]\
+[androidJvm]\
 val [Black_800](-black_800.md): Color

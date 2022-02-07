@@ -2,5 +2,5 @@
 
 # MainActivity
 
-[]\
+[androidJvm]\
 fun [MainActivity](-main-activity.md)()

@@ -2,7 +2,7 @@
 
 # ResumeTheme
 
-[]\
+[androidJvm]\
 
 @Composable
 

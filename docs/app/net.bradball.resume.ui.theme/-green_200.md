@@ -2,5 +2,5 @@
 
 # Green_200
 
-[]\
+[androidJvm]\
 val [Green_200](-green_200.md): Color

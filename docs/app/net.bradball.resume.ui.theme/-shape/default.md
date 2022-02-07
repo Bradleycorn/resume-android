@@ -2,5 +2,5 @@
 
 # default
 
-[]\
+[androidJvm]\
 val [default](default.md): RoundedCornerShape
