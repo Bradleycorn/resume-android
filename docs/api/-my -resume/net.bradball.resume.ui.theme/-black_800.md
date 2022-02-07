@@ -1,6 +1,0 @@
-//[My Resume](../../index.md)/[net.bradball.resume.ui.theme](index.md)/[Black_800](-black_800.md)
-
-# Black_800
-
-[androidJvm]\
-val [Black_800](-black_800.md): Color

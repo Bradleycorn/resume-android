@@ -1,10 +1,10 @@
-//[My Resume](index.md)
+//[app](index.md)
 
-# My Resume
+# app
 
 ## Packages
 
 | Name |
 |---|
-| [net.bradball.resume](-my -resume/net.bradball.resume/index.md) |
-| [net.bradball.resume.ui.theme](-my -resume/net.bradball.resume.ui.theme/index.md) |
+| [net.bradball.resume](app/net.bradball.resume/index.md) |
+| [net.bradball.resume.ui.theme](app/net.bradball.resume.ui.theme/index.md) |

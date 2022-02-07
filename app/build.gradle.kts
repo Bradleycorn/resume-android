@@ -109,13 +109,14 @@ dependencies {
 }
 
 tasks.dokkaGfm {
-    moduleName.set("My Resume")
+    moduleName.set("app")
 
     suppressObviousFunctions.set(true)
 
     dokkaSourceSets {
         configureEach {
             sourceLink {
+                displayName.set("MyResume")
                 outputDirectory.set(projectDir.resolve("../docs/api"))
                 // Unix based directory relative path to the root of the project (where you execute gradle respectively).
                 localDirectory.set(file("src/main/kotlin"))
