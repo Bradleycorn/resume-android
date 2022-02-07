@@ -19,6 +19,9 @@ import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import net.bradball.resume.ui.theme.ResumeTheme
 import net.bradball.resume.ui.theme.isLight
 
+/**
+ * Main EntryPoint to the Application.
+ */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

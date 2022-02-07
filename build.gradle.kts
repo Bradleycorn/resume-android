@@ -2,6 +2,8 @@ import org.gradle.api.tasks.Delete
 
 import net.bradball.resume.buildsrc.DependencyUpdates
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
+import java.net.URL
+import org.jetbrains.dokka.gradle.DokkaTask
 
 buildscript {
     repositories {
@@ -15,6 +17,7 @@ buildscript {
         classpath("com.android.tools.build:gradle:7.1.1")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.versions.kotlin.get()}")
         classpath("com.google.dagger:hilt-android-gradle-plugin:${libs.versions.hilt.get()}")
+//        classpath("org.jetbrains.dokka:dokka-gradle-plugin:1.6.10")
     }
 }
 
@@ -22,6 +25,7 @@ buildscript {
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.gradleDependencyUpdate)
+    alias(libs.plugins.dokka)
 }
 
 tasks.register<Delete>("clean") {
@@ -41,4 +45,3 @@ tasks.withType<DependencyUpdatesTask> {
         }
     }
 }
-
