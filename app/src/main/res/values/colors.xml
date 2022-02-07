@@ -1,0 +1,74 @@
+<resources>
+    <color name="md_theme_light_primary">#006497</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#CAE6FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#001E31</color>
+    <color name="md_theme_light_secondary">#BC102D</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#FFDAD8</color>
+    <color name="md_theme_light_onSecondaryContainer">#410007</color>
+    <color name="md_theme_light_tertiary">#006D41</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#92F7BC</color>
+    <color name="md_theme_light_onTertiaryContainer">#002110</color>
+    <color name="md_theme_light_error">#BA1B1B</color>
+    <color name="md_theme_light_errorContainer">#FFDAD4</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onErrorContainer">#410001</color>
+    <color name="md_theme_light_background">#FDFBFF</color>
+    <color name="md_theme_light_onBackground">#1B1B1D</color>
+    <color name="md_theme_light_surface">#FDFBFF</color>
+    <color name="md_theme_light_onSurface">#1B1B1D</color>
+    <color name="md_theme_light_surfaceVariant">#DEE3EA</color>
+    <color name="md_theme_light_onSurfaceVariant">#41474D</color>
+    <color name="md_theme_light_outline">#72787E</color>
+    <color name="md_theme_light_inverseOnSurface">#F1F0F4</color>
+    <color name="md_theme_light_inverseSurface">#2F3033</color>
+    <color name="md_theme_light_primaryInverse">#8CCDFF</color>
+    <color name="md_theme_dark_primary">#8CCDFF</color>
+    <color name="md_theme_dark_onPrimary">#003350</color>
+    <color name="md_theme_dark_primaryContainer">#004B73</color>
+    <color name="md_theme_dark_onPrimaryContainer">#CAE6FF</color>
+    <color name="md_theme_dark_secondary">#FFB3B3</color>
+    <color name="md_theme_dark_onSecondary">#680011</color>
+    <color name="md_theme_dark_secondaryContainer">#93001C</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFDAD8</color>
+    <color name="md_theme_dark_tertiary">#76DAA1</color>
+    <color name="md_theme_dark_onTertiary">#00391F</color>
+    <color name="md_theme_dark_tertiaryContainer">#005230</color>
+    <color name="md_theme_dark_onTertiaryContainer">#92F7BC</color>
+    <color name="md_theme_dark_error">#FFB4A9</color>
+    <color name="md_theme_dark_errorContainer">#930006</color>
+    <color name="md_theme_dark_onError">#680003</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD4</color>
+    <color name="md_theme_dark_background">#1B1B1D</color>
+    <color name="md_theme_dark_onBackground">#E3E2E6</color>
+    <color name="md_theme_dark_surface">#1B1B1D</color>
+    <color name="md_theme_dark_onSurface">#E3E2E6</color>
+    <color name="md_theme_dark_surfaceVariant">#41474D</color>
+    <color name="md_theme_dark_onSurfaceVariant">#C2C7CE</color>
+    <color name="md_theme_dark_outline">#8B9198</color>
+    <color name="md_theme_dark_inverseOnSurface">#1B1B1D</color>
+    <color name="md_theme_dark_inverseSurface">#E3E2E6</color>
+    <color name="md_theme_dark_primaryInverse">#006497</color>
+    <color name="seed">#204661</color>
+    <color name="error">#BA1B1B</color>
+
+<!--  Material 2 Colors -->
+<!--    <color name="Blue_900">#FF001F37</color>-->
+<!--    <color name="Blue_700">#FF204661</color>-->
+<!--    <color name="Blue_500">#FF4F718F</color>-->
+
+<!--    <color name="Red_400">#FF89000A</color>-->
+<!--    <color name="Red_200">#FFC11630</color>-->
+<!--    <color name="Red_100">#FFFA5459</color>-->
+
+<!--    <color name="Grey_100">#FFF9FCFF</color>-->
+<!--    <color name="Grey_200">#FFECEFF1</color>-->
+<!--    <color name="Grey_300">#FFE2E2E2</color>-->
+<!--    <color name="Grey_400">#FFA1A1A3</color>-->
+<!--    <color name="Grey_600">#FF7A7A7A</color>-->
+<!--    <color name="Grey_800">#FF4D4D4D</color>-->
+<!--    <color name="Grey_900">#FF303030</color>-->
+
+</resources>
