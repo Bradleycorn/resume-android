@@ -2,5 +2,5 @@
 
 # large
 
-[androidJvm]\
+[app]\
 val [large](large.md): RoundedCornerShape

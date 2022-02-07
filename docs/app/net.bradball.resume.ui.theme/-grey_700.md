@@ -2,5 +2,5 @@
 
 # Grey_700
 
-[androidJvm]\
+[app]\
 val [Grey_700](-grey_700.md): Color

@@ -2,5 +2,5 @@
 
 # Gery_600
 
-[androidJvm]\
+[app]\
 val [Gery_600](-gery_600.md): Color

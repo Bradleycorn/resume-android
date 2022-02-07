@@ -2,7 +2,7 @@
 
 # shapes
 
-[androidJvm]\
+[app]\
 
 @get:Composable
 

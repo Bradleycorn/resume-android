@@ -2,5 +2,5 @@
 
 # medium
 
-[androidJvm]\
+[app]\
 val [medium](medium.md): RoundedCornerShape

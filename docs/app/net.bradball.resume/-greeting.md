@@ -2,7 +2,7 @@
 
 # Greeting
 
-[androidJvm]\
+[app]\
 
 @Composable
 

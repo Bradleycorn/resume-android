@@ -2,5 +2,5 @@
 
 # AppTypography
 
-[androidJvm]\
+[app]\
 val [AppTypography](-app-typography.md): Typography

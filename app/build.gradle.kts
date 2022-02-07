@@ -115,18 +115,17 @@ tasks.dokkaGfm {
 
     dokkaSourceSets {
         configureEach {
-//            displayName.
+           displayName.set("app")
 
             sourceLink {
                 // Unix based directory relative path to the root of the project (where you execute gradle respectively).
                 localDirectory.set(file("src/main/kotlin"))
 
                 // URL showing where the source code can be accessed through the web browser
-                remoteUrl.set(URL("https://github.com/bradleycorn/resume-android/blob/master/src/main/kotlin"))
+                remoteUrl.set(URL("https://github.com/bradleycorn/resume-android/blob/master/app/src/main/kotlin"))
                 // Suffix which is used to append the line number to the URL. Use #L for GitHub
                 remoteLineSuffix.set("#L")
             }
         }
     }
-
 }

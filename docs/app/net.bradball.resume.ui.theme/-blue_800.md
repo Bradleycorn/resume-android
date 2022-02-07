@@ -2,5 +2,5 @@
 
 # Blue_800
 
-[androidJvm]\
+[app]\
 val [Blue_800](-blue_800.md): Color
