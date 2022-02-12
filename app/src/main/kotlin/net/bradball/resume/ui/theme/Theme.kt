@@ -68,10 +68,22 @@ private val DarkThemeColors = darkColorScheme(
 	inverseSurface = Grey_400,
 )
 
-
+/**
+ * Whether the colors in this scheme make up a "light" scheme or a "dark" scheme.
+ */
 var ColorScheme.isLight: Boolean by mutableStateOf(true, structuralEqualityPolicy())
 	private set
 
+/**
+ * The primary theme for the Resume app.
+ * This theme should be applied at the root of the compose tree.
+ * It is a wrapper around the Compose [MaterialTheme] composable,
+ * and applies our color, and type schemes.
+ *
+ * @param useDarkTheme Whether to use a dark or light theme. Defaults to the current
+ *   value of the Compose [isSystemInDarkTheme] composable.
+ * @param content The content to render using this theme.
+ */
 @Composable
 fun ResumeTheme(
 	useDarkTheme: Boolean = isSystemInDarkTheme(),

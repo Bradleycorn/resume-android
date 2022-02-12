@@ -6,7 +6,7 @@
 
 | Name | Summary |
 |---|---|
-| [MainActivity](-main-activity/index.md) | [app]<br>class [MainActivity](-main-activity/index.md) : [ComponentActivity](https://developer.android.com/reference/kotlin/androidx/activity/ComponentActivity.html)<br>Main EntryPoint to the Application. |
+| [MainActivity](-main-activity/index.md) | [app]<br>class [MainActivity](-main-activity/index.md) : [ComponentActivity](https://developer.android.com/reference/kotlin/androidx/activity/ComponentActivity.html)<br>This is the primary/initial activity that is launched when the user opens the app. This Activity serves as the root of a Compose Tree, and applies the [ResumeTheme](../net.bradball.resume.ui.theme/-resume-theme.md) as the root level composable. |
 
 ## Functions
 

@@ -112,6 +112,7 @@ tasks.dokkaGfm {
     moduleName.set("app")
     outputDirectory.set(projectDir.resolve("../docs"))
     suppressObviousFunctions.set(true)
+    suppressInheritedMembers.set(true)
 
     dokkaSourceSets {
         configureEach {

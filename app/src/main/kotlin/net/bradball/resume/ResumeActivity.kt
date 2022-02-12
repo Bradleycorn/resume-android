@@ -20,7 +20,20 @@ import net.bradball.resume.ui.theme.ResumeTheme
 import net.bradball.resume.ui.theme.isLight
 
 /**
- * Main EntryPoint to the Application.
+ * This is the primary/initial activity that is launched when the user opens the app.
+ * This Activity serves as the root of a Compose Tree, and applies the [ResumeTheme] as the root
+ * level composable.
+ *
+ * This activity sets itself to draw behind system windows, and further, sets the system
+ * windows to be transparent. As a result, when rendering content in this Activity,
+ * it is your responsibility to position your content and ensure that it doesn't get obscured
+ * by system bars.
+ *
+ * To aid in handling insets, this Activity wraps all content in the [ProvideWindowInsets]
+ * composable. In order to consume insets and position your content, you can use the various
+ * modifiers and other tools provided by the
+ * [Accompanist Insets](https://google.github.io/accompanist/insets/) library to properly position
+ * content in your composables.
  */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

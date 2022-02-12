@@ -9,6 +9,9 @@ import androidx.compose.ui.unit.sp
 //Replace with your font locations
 val Roboto = FontFamily.Default
 
+/**
+ * Defines the type faces and styles used in the [ResumeTheme].
+ */
 val AppTypography = Typography(
 	displayLarge = TextStyle(
 		fontFamily = Roboto,

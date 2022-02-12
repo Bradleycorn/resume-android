@@ -12,13 +12,13 @@
 
 | Name | Summary |
 |---|---|
-| [ResumeTheme](-resume-theme.md) | [app]<br>@Composable<br>fun [ResumeTheme](-resume-theme.md)(useDarkTheme: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = isSystemInDarkTheme(), content: @Composable() -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)) |
+| [ResumeTheme](-resume-theme.md) | [app]<br>@Composable<br>fun [ResumeTheme](-resume-theme.md)(useDarkTheme: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) = isSystemInDarkTheme(), content: @Composable() -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html))<br>The primary theme for the Resume app. This theme should be applied at the root of the compose tree. It is a wrapper around the Compose MaterialTheme composable, and applies our color, and type schemes. |
 
 ## Properties
 
 | Name | Summary |
 |---|---|
-| [AppTypography](-app-typography.md) | [app]<br>val [AppTypography](-app-typography.md): Typography |
+| [AppTypography](-app-typography.md) | [app]<br>val [AppTypography](-app-typography.md): Typography<br>Defines the type faces and styles used in the [ResumeTheme](-resume-theme.md). |
 | [Black_800](-black_800.md) | [app]<br>val [Black_800](-black_800.md): Color |
 | [Blue_100](-blue_100.md) | [app]<br>val [Blue_100](-blue_100.md): Color |
 | [Blue_200](-blue_200.md) | [app]<br>val [Blue_200](-blue_200.md): Color |
@@ -40,7 +40,7 @@
 | [Grey_700](-grey_700.md) | [app]<br>val [Grey_700](-grey_700.md): Color |
 | [Grey_800](-grey_800.md) | [app]<br>val [Grey_800](-grey_800.md): Color |
 | [Grey_900](-grey_900.md) | [app]<br>val [Grey_900](-grey_900.md): Color |
-| [isLight](is-light.md) | [app]<br>var ColorScheme.[isLight](is-light.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [isLight](is-light.md) | [app]<br>var ColorScheme.[isLight](is-light.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>Whether the colors in this scheme make up a "light" scheme or a "dark" scheme. |
 | [LocalShape](-local-shape.md) | [app]<br>val [LocalShape](-local-shape.md): ProvidableCompositionLocal&lt;[Shape](-shape/index.md)&gt;<br>A Composition Local that provides a [Shape](-shape/index.md) instance with shapes to use in the current composition scope. |
 | [Red_100](-red_100.md) | [app]<br>val [Red_100](-red_100.md): Color |
 | [Red_200](-red_200.md) | [app]<br>val [Red_200](-red_200.md): Color |
@@ -49,4 +49,4 @@
 | [Red_700](-red_700.md) | [app]<br>val [Red_700](-red_700.md): Color |
 | [Red_900](-red_900.md) | [app]<br>val [Red_900](-red_900.md): Color |
 | [Roboto](-roboto.md) | [app]<br>val [Roboto](-roboto.md): SystemFontFamily |
-| [shapes](shapes.md) | [app]<br>@get:Composable<br>@get:ReadOnlyComposable<br>val MaterialTheme.[shapes](shapes.md): [Shape](-shape/index.md)<br>Retuns a [Shape](-shape/index.md) that can be used within the current compose context to set shapes on various elements. |
+| [shapes](shapes.md) | [app]<br>@get:Composable<br>@get:ReadOnlyComposable<br>val MaterialTheme.[shapes](shapes.md): [Shape](-shape/index.md)<br>Returns a [Shape](-shape/index.md) that can be used within the current compose context to set shapes on various elements. |

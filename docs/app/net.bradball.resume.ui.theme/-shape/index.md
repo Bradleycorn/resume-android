@@ -7,7 +7,7 @@ data class [Shape](index.md)(default: RoundedCornerShape, small: RoundedCornerSh
 
 Defines a set of shapes to use for elements of various sizes (small, medium, large). Usually, you will want to create a an instance of this object and assign it to the [LocalShape](../-local-shape.md) Composition Local, and then use the [MaterialTheme.shapes](../shapes.md) property to get the current value of the Composition Local in order to set shapes in your composables.
 
-Material3, doesn't support shapes (yet), so this is an implementation that follows the Material 2 shapes implementation, and provides it for use with Material 3 components.
+Material3 doesn't support shapes (yet), so this is an implementation that follows the Material 2 shapes implementation, and provides it for use with Material 3 components.
 
 ## Constructors
 

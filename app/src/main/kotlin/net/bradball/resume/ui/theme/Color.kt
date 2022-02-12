@@ -33,21 +33,3 @@ val Grey_800 = Color(0xFF41474d)
 val Grey_900 = Color(0xFF2f3033)
 
 val Black_800 = Color(0xFF1b1b1d)
-
-
-//Material 2 Colors
-//val Blue_900 = Color(0xFF001F37)
-//val Blue_700 = Color(0xFF204661)
-//val Blue_500 = Color(0xFF4F718F)
-//
-//val Red_400 = Color(0xFF89000A)
-//val Red_200 = Color(0xFFC11630)
-//val Red_100 = Color(0xFFFA5459)
-//
-//val Grey_100 = Color(0xFFF9FCFF)
-//val Grey_200 = Color(0xFFECEFF1)
-//val Grey_300 = Color(0xFFE2E2E2)
-//val Grey_400 = Color(0xFFA1A1A3)
-//val Grey_600 = Color(0xFF7A7A7A)
-//val Grey_800 = Color(0xFF4D4D4D)
-//val Grey_900 = Color(0xFF303030)

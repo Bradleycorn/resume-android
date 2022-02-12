@@ -7,9 +7,6 @@ import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.ui.unit.dp
 
-//Material 3 doesn't have shapes support.
-// This is a way to hack it until support is added.
-
 /**
  * Defines a set of shapes to use for elements of various sizes
  * (small, medium, large). Usually, you will want to create a
@@ -18,7 +15,7 @@ import androidx.compose.ui.unit.dp
  * property to get the current value of the Composition Local
  * in order to set shapes in your composables.
  *
- * Material3, doesn't support shapes (yet), so this
+ * Material3 doesn't support shapes (yet), so this
  * is an implementation that follows the Material 2 shapes
  * implementation, and provides it for use with Material 3 components.
  */
@@ -41,7 +38,7 @@ val LocalShape = compositionLocalOf { Shape() }
 
 
 /**
- * Retuns a [Shape] that can be used within the current
+ * Returns a [Shape] that can be used within the current
  * compose context to set shapes on various elements.
  */
 val MaterialTheme.shapes: Shape
