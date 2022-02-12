@@ -27,7 +27,7 @@ androidx-test = { module="androidx.test.ext:junit", version = "1.1.4-alpha03" }
 androidx-test-core = { module="androidx.test:core", version.ref = "androidx-test"}
 androidx-test-runner = { module="androidx.test:runner", version.ref = "androidx-test"}
 
-compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
+compose-material3 = { module = "androidx.compose.material:material", version.ref = "compose" }
 compose-ui= { module = "androidx.compose.ui:ui", version.ref = "compose" }
 compose-ui-test = { module="androidx.compose.ui:ui-test-junit4", version.ref = "compose" }
 compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }

@@ -2,12 +2,6 @@
 
 # Package net.bradball.resume.ui.theme
 
-## Types
-
-| Name | Summary |
-|---|---|
-| [Shape](-shape/index.md) | [app]<br>data class [Shape](-shape/index.md)(default: RoundedCornerShape, small: RoundedCornerShape, medium: RoundedCornerShape, large: RoundedCornerShape)<br>Defines a set of shapes to use for elements of various sizes (small, medium, large). Usually, you will want to create a an instance of this object and assign it to the [LocalShape](-local-shape.md) Composition Local, and then use the [MaterialTheme.shapes](shapes.md) property to get the current value of the Composition Local in order to set shapes in your composables. |
-
 ## Functions
 
 | Name | Summary |
@@ -18,12 +12,12 @@
 
 | Name | Summary |
 |---|---|
-| [AppTypography](-app-typography.md) | [app]<br>val [AppTypography](-app-typography.md): Typography<br>Defines the type faces and styles used in the [ResumeTheme](-resume-theme.md). |
 | [Black_800](-black_800.md) | [app]<br>val [Black_800](-black_800.md): Color |
 | [Blue_100](-blue_100.md) | [app]<br>val [Blue_100](-blue_100.md): Color |
 | [Blue_200](-blue_200.md) | [app]<br>val [Blue_200](-blue_200.md): Color |
 | [Blue_400](-blue_400.md) | [app]<br>val [Blue_400](-blue_400.md): Color |
 | [Blue_600](-blue_600.md) | [app]<br>val [Blue_600](-blue_600.md): Color |
+| [Blue_700](-blue_700.md) | [app]<br>val [Blue_700](-blue_700.md): Color |
 | [Blue_800](-blue_800.md) | [app]<br>val [Blue_800](-blue_800.md): Color |
 | [Blue_900](-blue_900.md) | [app]<br>val [Blue_900](-blue_900.md): Color |
 | [Gery_600](-gery_600.md) | [app]<br>val [Gery_600](-gery_600.md): Color |
@@ -40,13 +34,13 @@
 | [Grey_700](-grey_700.md) | [app]<br>val [Grey_700](-grey_700.md): Color |
 | [Grey_800](-grey_800.md) | [app]<br>val [Grey_800](-grey_800.md): Color |
 | [Grey_900](-grey_900.md) | [app]<br>val [Grey_900](-grey_900.md): Color |
-| [isLight](is-light.md) | [app]<br>var ColorScheme.[isLight](is-light.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>Whether the colors in this scheme make up a "light" scheme or a "dark" scheme. |
-| [LocalShape](-local-shape.md) | [app]<br>val [LocalShape](-local-shape.md): ProvidableCompositionLocal&lt;[Shape](-shape/index.md)&gt;<br>A Composition Local that provides a [Shape](-shape/index.md) instance with shapes to use in the current composition scope. |
 | [Red_100](-red_100.md) | [app]<br>val [Red_100](-red_100.md): Color |
 | [Red_200](-red_200.md) | [app]<br>val [Red_200](-red_200.md): Color |
+| [Red_300](-red_300.md) | [app]<br>val [Red_300](-red_300.md): Color |
 | [Red_400](-red_400.md) | [app]<br>val [Red_400](-red_400.md): Color |
 | [Red_500](-red_500.md) | [app]<br>val [Red_500](-red_500.md): Color |
 | [Red_700](-red_700.md) | [app]<br>val [Red_700](-red_700.md): Color |
 | [Red_900](-red_900.md) | [app]<br>val [Red_900](-red_900.md): Color |
 | [Roboto](-roboto.md) | [app]<br>val [Roboto](-roboto.md): SystemFontFamily |
-| [shapes](shapes.md) | [app]<br>@get:Composable<br>@get:ReadOnlyComposable<br>val MaterialTheme.[shapes](shapes.md): [Shape](-shape/index.md)<br>Returns a [Shape](-shape/index.md) that can be used within the current compose context to set shapes on various elements. |
+| [shapes](shapes.md) | [app]<br>val [shapes](shapes.md): Shapes<br>Defines Material Shapes to use in the main theme throughout the application. |
+| [typography](typography.md) | [app]<br>val [typography](typography.md): Typography<br>Defines Material Typography to use in the main theme throughout the application. |

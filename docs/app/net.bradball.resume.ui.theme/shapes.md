@@ -3,11 +3,8 @@
 # shapes
 
 [app]\
+val [shapes](shapes.md): Shapes
 
-@get:Composable
+Defines Material Shapes to use in the main theme throughout the application.
 
-@get:ReadOnlyComposable
-
-val MaterialTheme.[shapes](shapes.md): [Shape](-shape/index.md)
-
-Returns a [Shape](-shape/index.md) that can be used within the current compose context to set shapes on various elements.
+Material defaults are rounded corners, with a 4dp radius for small and medium components and 0dp for large components.

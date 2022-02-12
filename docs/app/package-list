@@ -1,12 +1,12 @@
 $dokka.format:gfm-v1
 $dokka.linkExtension:md
 $dokka.location:net.bradball.resume.ui.theme////PointingToDeclaration/app/net.bradball.resume.ui.theme/index.md
-$dokka.location:net.bradball.resume.ui.theme//AppTypography/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-app-typography.md
 $dokka.location:net.bradball.resume.ui.theme//Black_800/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-black_800.md
 $dokka.location:net.bradball.resume.ui.theme//Blue_100/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_100.md
 $dokka.location:net.bradball.resume.ui.theme//Blue_200/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_200.md
 $dokka.location:net.bradball.resume.ui.theme//Blue_400/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_400.md
 $dokka.location:net.bradball.resume.ui.theme//Blue_600/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_600.md
+$dokka.location:net.bradball.resume.ui.theme//Blue_700/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_700.md
 $dokka.location:net.bradball.resume.ui.theme//Blue_800/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_800.md
 $dokka.location:net.bradball.resume.ui.theme//Blue_900/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_900.md
 $dokka.location:net.bradball.resume.ui.theme//Gery_600/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-gery_600.md
@@ -22,9 +22,9 @@ $dokka.location:net.bradball.resume.ui.theme//Grey_500/#/PointingToDeclaration/
 $dokka.location:net.bradball.resume.ui.theme//Grey_700/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_700.md
 $dokka.location:net.bradball.resume.ui.theme//Grey_800/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_800.md
 $dokka.location:net.bradball.resume.ui.theme//Grey_900/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_900.md
-$dokka.location:net.bradball.resume.ui.theme//LocalShape/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-local-shape.md
 $dokka.location:net.bradball.resume.ui.theme//Red_100/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_100.md
 $dokka.location:net.bradball.resume.ui.theme//Red_200/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_200.md
+$dokka.location:net.bradball.resume.ui.theme//Red_300/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_300.md
 $dokka.location:net.bradball.resume.ui.theme//Red_400/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_400.md
 $dokka.location:net.bradball.resume.ui.theme//Red_500/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_500.md
 $dokka.location:net.bradball.resume.ui.theme//Red_700/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_700.md
@@ -32,14 +32,8 @@ $dokka.location:net.bradball.resume.ui.theme//Red_900/#/PointingToDeclaration/a
 $dokka.location:net.bradball.resume.ui.theme//ResumeTheme/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/app/net.bradball.resume.ui.theme/-resume-theme.md
 $dokka.location:net.bradball.resume.ui.theme//Roboto/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-roboto.md
 $dokka.location:net.bradball.resume.ui.theme//grey_300/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/grey_300.md
-$dokka.location:net.bradball.resume.ui.theme//isLight/androidx.compose.material3.ColorScheme#/PointingToDeclaration/app/net.bradball.resume.ui.theme/is-light.md
-$dokka.location:net.bradball.resume.ui.theme//shapes/androidx.compose.material3.MaterialTheme#/PointingToDeclaration/app/net.bradball.resume.ui.theme/shapes.md
-$dokka.location:net.bradball.resume.ui.theme/Shape///PointingToDeclaration/app/net.bradball.resume.ui.theme/-shape/index.md
-$dokka.location:net.bradball.resume.ui.theme/Shape/Shape/#androidx.compose.foundation.shape.RoundedCornerShape#androidx.compose.foundation.shape.RoundedCornerShape#androidx.compose.foundation.shape.RoundedCornerShape#androidx.compose.foundation.shape.RoundedCornerShape/PointingToDeclaration/app/net.bradball.resume.ui.theme/-shape/-shape.md
-$dokka.location:net.bradball.resume.ui.theme/Shape/default/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-shape/default.md
-$dokka.location:net.bradball.resume.ui.theme/Shape/large/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-shape/large.md
-$dokka.location:net.bradball.resume.ui.theme/Shape/medium/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-shape/medium.md
-$dokka.location:net.bradball.resume.ui.theme/Shape/small/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-shape/small.md
+$dokka.location:net.bradball.resume.ui.theme//shapes/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/shapes.md
+$dokka.location:net.bradball.resume.ui.theme//typography/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/typography.md
 $dokka.location:net.bradball.resume////PointingToDeclaration/app/net.bradball.resume/index.md
 $dokka.location:net.bradball.resume//DefaultPreview/#/PointingToDeclaration/app/net.bradball.resume/-default-preview.md
 $dokka.location:net.bradball.resume//Greeting/#kotlin.String/PointingToDeclaration/app/net.bradball.resume/-greeting.md
