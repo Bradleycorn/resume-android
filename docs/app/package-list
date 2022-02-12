@@ -1,0 +1,44 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:net.bradball.resume.ui.theme////PointingToDeclaration/app/net.bradball.resume.ui.theme/index.md
+$dokka.location:net.bradball.resume.ui.theme//Black_800/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-black_800.md
+$dokka.location:net.bradball.resume.ui.theme//Blue_100/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_100.md
+$dokka.location:net.bradball.resume.ui.theme//Blue_200/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_200.md
+$dokka.location:net.bradball.resume.ui.theme//Blue_400/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_400.md
+$dokka.location:net.bradball.resume.ui.theme//Blue_600/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_600.md
+$dokka.location:net.bradball.resume.ui.theme//Blue_700/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_700.md
+$dokka.location:net.bradball.resume.ui.theme//Blue_800/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_800.md
+$dokka.location:net.bradball.resume.ui.theme//Blue_900/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-blue_900.md
+$dokka.location:net.bradball.resume.ui.theme//Gery_600/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-gery_600.md
+$dokka.location:net.bradball.resume.ui.theme//Green_100/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-green_100.md
+$dokka.location:net.bradball.resume.ui.theme//Green_200/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-green_200.md
+$dokka.location:net.bradball.resume.ui.theme//Green_600/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-green_600.md
+$dokka.location:net.bradball.resume.ui.theme//Green_800/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-green_800.md
+$dokka.location:net.bradball.resume.ui.theme//Green_900/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-green_900.md
+$dokka.location:net.bradball.resume.ui.theme//Grey_100/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_100.md
+$dokka.location:net.bradball.resume.ui.theme//Grey_200/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_200.md
+$dokka.location:net.bradball.resume.ui.theme//Grey_400/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_400.md
+$dokka.location:net.bradball.resume.ui.theme//Grey_500/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_500.md
+$dokka.location:net.bradball.resume.ui.theme//Grey_700/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_700.md
+$dokka.location:net.bradball.resume.ui.theme//Grey_800/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_800.md
+$dokka.location:net.bradball.resume.ui.theme//Grey_900/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-grey_900.md
+$dokka.location:net.bradball.resume.ui.theme//Red_100/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_100.md
+$dokka.location:net.bradball.resume.ui.theme//Red_200/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_200.md
+$dokka.location:net.bradball.resume.ui.theme//Red_300/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_300.md
+$dokka.location:net.bradball.resume.ui.theme//Red_400/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_400.md
+$dokka.location:net.bradball.resume.ui.theme//Red_500/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_500.md
+$dokka.location:net.bradball.resume.ui.theme//Red_700/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_700.md
+$dokka.location:net.bradball.resume.ui.theme//Red_900/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-red_900.md
+$dokka.location:net.bradball.resume.ui.theme//ResumeTheme/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/app/net.bradball.resume.ui.theme/-resume-theme.md
+$dokka.location:net.bradball.resume.ui.theme//Roboto/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/-roboto.md
+$dokka.location:net.bradball.resume.ui.theme//grey_300/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/grey_300.md
+$dokka.location:net.bradball.resume.ui.theme//shapes/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/shapes.md
+$dokka.location:net.bradball.resume.ui.theme//typography/#/PointingToDeclaration/app/net.bradball.resume.ui.theme/typography.md
+$dokka.location:net.bradball.resume////PointingToDeclaration/app/net.bradball.resume/index.md
+$dokka.location:net.bradball.resume//DefaultPreview/#/PointingToDeclaration/app/net.bradball.resume/-default-preview.md
+$dokka.location:net.bradball.resume//Greeting/#kotlin.String/PointingToDeclaration/app/net.bradball.resume/-greeting.md
+$dokka.location:net.bradball.resume/MainActivity///PointingToDeclaration/app/net.bradball.resume/-main-activity/index.md
+$dokka.location:net.bradball.resume/MainActivity/MainActivity/#/PointingToDeclaration/app/net.bradball.resume/-main-activity/-main-activity.md
+net.bradball.resume
+net.bradball.resume.ui.theme
+
