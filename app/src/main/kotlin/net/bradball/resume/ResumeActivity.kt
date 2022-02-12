@@ -5,9 +5,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.Modifier
@@ -17,7 +17,6 @@ import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.insets.systemBarsPadding
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import net.bradball.resume.ui.theme.ResumeTheme
-import net.bradball.resume.ui.theme.isLight
 
 /**
  * This is the primary/initial activity that is launched when the user opens the app.
@@ -43,7 +42,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             val systemUiController = rememberSystemUiController()
-            val useDarkIcons = MaterialTheme.colorScheme.isLight
+            val useDarkIcons = MaterialTheme.colors.isLight
             SideEffect {
                 systemUiController.setSystemBarsColor(Color.Transparent, darkIcons = useDarkIcons)
             }
@@ -54,7 +53,7 @@ class MainActivity : ComponentActivity() {
                     // A surface container using the 'background' color from the theme
                     Surface(
                         modifier = Modifier.fillMaxSize().systemBarsPadding(),
-                        color = MaterialTheme.colorScheme.background
+                        color = MaterialTheme.colors.background
                     ) {
                         Greeting("Android")
                     }
