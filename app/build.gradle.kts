@@ -103,9 +103,12 @@ dependencies {
 
     testImplementation(libs.junit)
     testImplementation(libs.bundles.androidx.test)
+    testImplementation(libs.androidx.test.espresso)
     testImplementation(libs.robolectric)
 
     androidTestImplementation(libs.bundles.androidx.test)
+    debugImplementation(libs.compose.ui.test.manifest)
+    debugImplementation(libs.androidx.test.core)
 }
 
 tasks.dokkaGfm {
