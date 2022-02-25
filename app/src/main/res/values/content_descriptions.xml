@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cd_experience_screen">Experience Screen</string>
+    <string name="cd_experience_app_bar">Experience App Bar</string>
+
+    <string name="cd_skills_screen">Skills Screen</string>
+    <string name="cd_skills_app_bar">Skills App Bar</string>
+
+    <string name="cd_education_screen">Education Screen</string>
+    <string name="cd_education_app_bar">Education App Bar</string>
+
+    <string name="cd_about_screen">About Screen</string>
+    <string name="cd_about_app_bar">About App Bar</string>
+
+</resources>
